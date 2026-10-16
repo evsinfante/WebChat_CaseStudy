@@ -1,0 +1,16 @@
+{
+  "name": "p2-server",
+  "version": "1.0.0",
+  "description": "Project 2 - Server",
+  "license": "ISC",
+  "author": "Evelyn Infante",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "watch": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "socket.io": "^4.8.3"
+  }
+}
